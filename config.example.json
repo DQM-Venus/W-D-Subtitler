@@ -1,0 +1,13 @@
+{
+    "trans_key": "",
+    "base_url": "https://api.deepseek.com",
+    "asr_hotwords": "",
+    "do_translate": true,
+    "use_context": true,
+    "export_fmt": "srt",
+    "model_precision": "float16",
+    "quality_mode": "快速",
+    "large_v3_review": true,
+    "ai_asr_arbitration": false,
+    "timeline_refinement": true
+}

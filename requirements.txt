@@ -1,0 +1,17 @@
+# W-D Subtitler 运行依赖
+# Python 3.10+ 推荐
+
+# GUI
+# tkinter 是 Python 内置的，无需安装
+
+# 本地 ASR
+faster-whisper>=1.0.0
+
+# 媒体音轨探测与统一音频预处理
+av>=12.0.0
+
+# HTTP 请求（翻译 API）
+requests>=2.31.0
+
+# 注意：PyTorch 需要单独安装（GPU 版本）
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
